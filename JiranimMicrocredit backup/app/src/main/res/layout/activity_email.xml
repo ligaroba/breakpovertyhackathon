@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="false">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/textViewPhoneNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To : "
+            android:textColor="@color/PrimaryColor"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextTo"
+            android:textColor="@color/black"
+            android:text="info@origicheck.com"
+            android:background="@drawable/rounder_corners"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textViewSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/email_layout_margin"
+            android:textColor="@color/black"
+            android:text="Subject : "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextSubject"
+            android:layout_width="fill_parent"
+            android:hint="subject"
+            android:background="@drawable/rounder_corners"
+            android:layout_marginTop="@dimen/email_layout_margin"
+            android:textColorHint="@color/PrimaryColor"
+            android:textColor="@color/PrimaryColor"
+            android:layout_height="wrap_content"
+            >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/email_layout_margin"
+            android:layout_height="wrap_content"
+            android:text="Message : "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="fill_parent"
+            android:textColor="@color/PrimaryColor"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounder_corners"
+            android:layout_marginTop="@dimen/email_layout_margin"
+            android:gravity="top"
+            android:hint="@string/body"
+            android:textColorHint="@color/PrimaryColor"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:background="@color/PrimaryColor"/>
+    </LinearLayout>
+</ScrollView>

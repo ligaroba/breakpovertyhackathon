@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editemployer_name"
+        android:hint="@string/employer_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editdepartment"
+        android:layout_marginTop="10dp"
+        android:hint="@string/department"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinemploymenttype"
+        android:layout_marginTop="10dp"
+        android:entries="@array/employment_terms"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/editemploymentyears"
+        android:hint="@string/employment_years"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/editmonthlyincome"
+
+        android:hint="@string/monthly_income"/>
+
+            </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+
+        android:id="@+id/editemail"
+        android:hint="@string/official_email"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imguploadpayslip"
+        android:background="@drawable/ic_cloud_upload_3x"
+        android:contentDescription="@drawable/ic_cloud_upload_3x"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:background="@color/PrimaryColor"
+        android:id="@+id/btnsubmitemployee"
+        android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>

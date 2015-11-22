@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardElevation="5dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+            <TextView
+            android:id="@+id/loanamount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+
+            android:text="@string/loan_amount"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"/>
+
+
+            <TextView
+                android:id="@+id/currentpaymentstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loan_status"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+
+                android:textSize="14sp"
+                />
+
+
+
+        <TextView
+
+            android:id="@+id/paymentstartdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/payment_stert_date"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/expected_end_installment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/expected_end_installment"
+            android:textColor="@color/black"
+
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/paymentduration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/paymentduration"
+            android:textColor="@color/black"
+
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/instalment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instalment_amount"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/totalamountpaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/totalamountpaid"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/totalamounttobepaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/totalamounttobepaid"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            />
+
+        <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/purpose"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/purpose"
+        android:textColor="@color/colorPrimary"
+        />
+</ScrollView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/timeadded"
+        android:text="@string/timeapplied"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="20dp"
+        android:layout_margin="15dp"
+        android:text="@string/outletstatement"
+        android:id="@+id/textView"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp">
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinselectoutlet"
+            android:layout_weight="2"
+            android:entries="@array/outlet"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_input_add"
+            android:id="@+id/btnaddoutlet" />
+
+
+    </LinearLayout>
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Back"
+        android:id="@+id/btnoutletback"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Next"
+        android:id="@+id/btnoutletnext" />
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars = "vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+<LinearLayout
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:weightSum="4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_weight="2">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imgeavatar"
+                    android:layout_width="@dimen/img_thumb"
+                    android:layout_height="@dimen/img_thumb"
+                    android:background="@color/white"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/change_profile_picture"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="8dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:textSize="15sp"
+                    android:drawableStart="@drawable/ic_create_black_18dp"
+                    android:drawableLeft="@drawable/ic_create_black_18dp"
+
+                    android:layout_alignParentTop="true"
+
+                    android:layout_toRightOf="@+id/imgeavatar"
+                    android:layout_toEndOf="@+id/imgeavatar" />
+
+
+
+            </RelativeLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                cardView:contentPadding="5dp"
+                cardView:cardCornerRadius="2dp"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                cardView:cardPreventCornerOverlap="true"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text=""
+
+                    android:drawableLeft="@drawable/account"
+                    android:drawableRight="@drawable/ic_create_black_18dp"
+                    android:drawableStart="@drawable/account"
+                    android:drawableEnd="@drawable/account"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="20dp"
+
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:id="@+id/editfirstname"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/first_name"
+                    android:padding="5dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textSize="18sp"
+                    android:id="@+id/tvtplaceholder" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                cardView:cardElevation="4dp"
+                cardView:cardCornerRadius="2dp"
+                cardView:cardPreventCornerOverlap="true"
+
+                cardView:contentPadding="5dp"
+                android:layout_height="wrap_content"
+              >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text=""
+                    android:drawableRight="@drawable/account"
+                    android:drawableStart="@drawable/account"
+                    android:drawableEnd="@drawable/ic_create_black_18dp"
+                    android:drawableLeft="@drawable/account"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="20dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:id="@+id/editsecondnamename"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/second_name"
+                    android:padding="5dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textSize="18sp"
+                    android:id="@+id/secondnameplaceholder" />
+            </android.support.v7.widget.CardView>
+
+            <!--surname-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                cardView:cardElevation="4dp"
+
+                cardView:cardCornerRadius="2dp"
+                cardView:cardPreventCornerOverlap="true"
+                cardView:contentPadding="5dp"
+                android:layout_height="wrap_content"
+              >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text=""
+                    android:drawableRight="@drawable/account"
+                    android:drawableStart="@drawable/account"
+                    android:drawableEnd="@drawable/ic_create_black_18dp"
+                    android:drawableLeft="@drawable/account"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="20dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:id="@+id/editsurnaename"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/surname"
+                    android:padding="5dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textSize="18sp"
+                    android:id="@+id/surnameplaceholder" />
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                cardView:cardElevation="4dp"
+                cardView:contentPadding="5dp"
+
+                cardView:cardCornerRadius="2dp"
+                cardView:cardPreventCornerOverlap="true"
+                android:layout_height="wrap_content"
+               >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text=""
+
+                    android:drawableStart="@drawable/ic_call_black_18dp"
+                    android:drawableEnd="@drawable/ic_create_black_18dp"
+                    android:drawableRight="@drawable/ic_call_black_18dp"
+                    android:drawableLeft="@drawable/ic_create_black_18dp"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="20dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:paddingBottom="8dp"
+
+
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:id="@+id/editphonenumber"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/phonenumber"
+                    android:padding="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textSize="18sp"
+                    android:id="@+id/phonenumberplaceholder" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                cardView:cardElevation="4dp"
+                cardView:cardCornerRadius="2dp"
+                cardView:cardPreventCornerOverlap="true"
+                cardView:contentPadding="5dp"
+                android:layout_height="wrap_content"
+             >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text=""
+                    android:drawableRight="@drawable/ic_directions"
+                    android:drawableStart="@drawable/ic_directions"
+                    android:drawableEnd="@drawable/ic_create_black_18dp"
+                    android:drawableLeft="@drawable/account"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="20dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+
+                    android:id="@+id/editidbumber"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/residence"
+                    android:padding="5dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textSize="18sp"
+                    android:id="@+id/id_numberplaceholder" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                cardView:cardPreventCornerOverlap="true"
+                cardView:contentPadding="5dp"
+                cardView:cardElevation="4dp"
+
+                cardView:cardCornerRadius="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+              <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text=""
+                    android:drawableStart="@drawable/ic_email"
+                    android:drawableEnd="@drawable/ic_create_black_18dp"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawableRight="@drawable/ic_create_black_18dp"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="20dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:paddingBottom="8dp"
+
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:id="@+id/editemail"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/prompt_email"
+                    android:padding="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textSize="18sp"
+                    android:id="@+id/emailplaceholder" />
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <android.support.v7.widget.CardView
+                cardView:cardPreventCornerOverlap="true"
+                cardView:contentPadding="5dp"
+                cardView:cardElevation="4dp"
+
+                cardView:cardCornerRadius="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text=""
+                    android:drawableStart="@drawable/ic_input_black_24dp"
+                    android:drawableEnd="@drawable/ic_create_black_18dp"
+                    android:drawableLeft="@drawable/ic_input_black_24dp"
+                    android:drawableRight="@drawable/ic_create_black_18dp"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="20dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:paddingBottom="8dp"
+
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:id="@+id/id_number"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/prompt_email"
+                    android:padding="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textSize="18sp"
+                    android:id="@+id/residenceplaceholder" />
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                cardView:cardPreventCornerOverlap="true"
+                cardView:contentPadding="5dp"
+                cardView:cardElevation="4dp"
+
+                cardView:cardCornerRadius="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+
+                    android:text=""
+                    android:drawableStart="@drawable/ic_turned_in_not_black_24dp"
+                    android:drawableEnd="@drawable/ic_create_black_18dp"
+                    android:drawableLeft="@drawable/ic_turned_in_not_black_24dp"
+                    android:drawableRight="@drawable/ic_create_black_18dp"
+                    android:textColor="@color/colorPrimary"
+                    android:padding="20dp"
+
+                    android:layout_marginTop="10dp"
+
+                    android:paddingBottom="8dp"
+
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:id="@+id/id_status"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="@string/prompt_email"
+                    android:padding="5dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginStart="50dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+
+                    android:textSize="18sp"
+                    android:id="@+id/statusplaceholder" />
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/update_profile"
+
+                android:id="@+id/btnCreate"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.48" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+        </ScrollView></LinearLayout>

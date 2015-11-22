@@ -1,0 +1,320 @@
+<resources>
+    <string name="app_name">JiraniMicrocredit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_details">Jirani Microcredit App</string>
+    <string name="loans">Loans</string>
+    <string name="documents">Documents</string>
+    <string name="contact_us">Contact Us</string>
+
+    <!--employement details-->
+    <string name="employment">Employment:</string>
+
+    <string name="business_nature">Nature of Business:</string>
+    <string name="rental_property">Rental Property:</string>
+    <string name="employer">Employer:</string>
+    <string name="department">Department:</string>
+    <string name="location">Location:</string>
+    <string name="employemnt_terms">Terms of employment (Permanent/Contractual)</string>
+    <string name="employent_date">Date of Employment:</string>
+    <string name="income">Income [KES.]:</string>
+    <string name="business_start">Year that business started:</string>
+    <string name="occupancy">Occupancy:[%]</string>
+    <string name="specify_ownership">Specify on ownership (self/group owned):</string>
+    <string name="trade">Major Customers (Specify Below):</string>
+    <string name="turnover">Turnover: (Kes.)</string>
+
+    <string name="specific_location">Specific Location:</string>
+    <string name="major_customers">Major customers  (Specify below):</string>
+    <string name="rental_location">Location of rental property:</string>
+    <string name="manufucturing">Manufacturing/ Trade (Specify Below): </string>
+
+    <string name="title">Title/Plot No.:</string>
+
+    <!-- personal details-->
+
+    <string name="name">Name:</string>
+    <string name="mobile_number">Mobile Phone No:</string>
+    <string name="marital_status">Marital status:</string>
+    <string name="id_no">ID. NO.</string>
+
+    <string name="date">Date</string>
+    <string name="submit">Submit</string>
+    <string name="uploadtoServer">Upload</string>
+    <string name="backup">Backup</string>
+    <string name="send_message">Send Message</string>
+    <string name="change_profile_picture">Change your profile picture</string>
+    <string name="password">Password</string>
+
+
+    <string-array name="backuptype">
+        <item>Select upload type</item>
+        <item>Loan</item>
+        <item>Receipt</item>
+    </string-array>
+
+    <!--profile strings-->
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="phonenumber">phonenumber</string>
+    <string name="surname">Surname</string>
+    <string name="id_number">Id number</string>
+    <string name="update_profile">Update Profile</string>
+
+
+    <!-- Loan-->
+
+    <string name="id_applicant">Name of Id Applicant</string>
+
+    <string name="email">Email</string>
+    <string name="phone">Phone number</string>
+    <string name="residence">Residence</string>
+
+
+    <!--business-->
+    <string name="business_name">Business name</string>
+    <string name="business_type">Business type</string>
+    <string name="business_turnover">Business Turnover</string>
+    <string name="business_location">Business Location</string>
+    <string name="operation_time">Time it has been operational</string>
+    <string name="monthly_income">Monthly Income</string>
+    <string name="business_permit">Business Permit</string>
+    <string name="upload">Upload Business Permit</string>
+
+    <array name="business_type">
+        <item>Retail</item>
+        <item>Wholesale</item>
+    </array>
+
+
+    <!--employment-->
+
+    <string name="employer_name">Employer name</string>
+    <string name="your_department">Department</string>
+    <array name="employment_terms">
+
+        <item>Permanent</item>
+        <item>Casual</item>
+        <item>Contract</item>
+
+    </array>
+
+    <string name="employment_years">Period</string>
+
+    <string name="income_permonth">Income Per Month</string>
+    <string name="official_email">Official Email</string>
+    <string name="payslip">PaySlip</string>
+    <!--guarantors-->
+    <array name="guarantor_type">
+
+        <item>Employer</item>
+        <item>Business Partner</item>
+        <item>Family Member</item>
+    </array>
+
+    <!--loan-->
+
+
+    <string name="last_payment">Last Payment</string>
+
+    <string name="date_taken">Date Taken</string>
+
+    <string name="begin_paydate">Begin PayDate</string>
+    <string name="last_time_payed">Last Time Paid</string>
+    <string name="remainder">Remainder</string>
+
+    <string name="view_more">view more >></string>
+    <string name="loan_name">LOAN NAME</string>
+    <string name="loan_type">Loan Type</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="payment_period">Payment Period</string>
+    <string name="instalment_amount">Instalment Amount</string>
+    <string name="occupation_name">Occupation Name</string>
+    <string name="occupation_description">Occupation Description</string>
+    <string name="occupation_avator">Occupation image</string>
+
+
+    <string name="property_location">Location</string>
+    <string name="plot_number">Plot Number</string>
+    <string name="specifyOwnership">Specify Ownership</string>
+    <string name="number_occupancy">Occupancy[%]</string>
+    <string name="hse_income">Income/House Unit</string>
+    <string name="hse_images">Upload Property  Images</string>
+    <string name="property_picture">Property Picture</string>
+    <string name="property_name">Property Name</string>
+    <string name="select_category">Select Category</string>
+    <string name="body">Body</string>
+    <string name="date_pick">Pick a date</string>
+    <string name="help_feedback">help and feedback</string>
+    <string name="sms">Click here to send SMS</string>
+    <string name="call">Call</string>
+    <string name="email1">email</string>
+    <string name="send_sms">sms</string>
+
+
+    <!--business-->
+
+
+    <!--loan-->
+
+
+    <array name="property_ownership">
+        <item>Group</item>
+        <item>Owned</item>
+    </array>
+
+    <!--Loan Status-->
+
+
+    <string name="button">Buttom</string>
+
+    <string name="btn_guarantors">Guarantors</string>
+    <string name="btn_income">Income</string>
+    <string name="btn_report">Report</string>
+    <string name="btn_loans">Loants</string>
+    <string name="title_activity_loan_application">LoanApplicationActivity</string>
+
+    <string name="loan_application_amount">LOAN  AMOUNT [KES]</string>
+    <string name="post_dated_cheque">Post Dated Cheques</string>
+    <string name="cheque_amount"> Amount</string>
+    <string name="cheque_bank">Bank</string>
+    <string name="cheque_no">Cheque No</string>
+    <string name="repayment_date">Repayment Date</string>
+    <string name="purpose">Purpose</string>
+
+
+    <!--Loan Status-->
+
+    <string name="expected_first_installment">Repayment Begin Date</string>
+
+    <string name="current_payment_status">Current Payment Status</string>
+
+    <string name="expected_end_installment">Repayment End Date</string>
+
+    <string name="loan_status">LOAN STATUS</string>
+    <string name="google_api_key">AIzaSyBkez0RmfjEiwsqqV6r0K4CjCPbuBmVFHQ</string>
+    <string name="google_debug_api_key">AIzaSyCZw8xeEKs4btRtoh07AxYjeuQ-T9amRX8</string>
+    <string name="incomeLayout">Income</string>
+    <string name="loansLayout">Loans</string>
+    <string name="gurantorsLayout">Gurantors</string>
+    <string name="reportsLayout">Reports</string>
+
+    <string name="loan_portfolio">Your Loan Portfolio</string>
+    <string name="total_amount">Loan Amount</string>
+    <string name="current_balance">CURRENT BALANCE</string>
+    
+    <string name="current_installment">CURRENT INSTALLMENT</string>
+    <string name="installment_left">INSTALLMENT LEFT</string>
+    <string name="due_date">LOAN DUE DATE</string>
+    <string name="start_date">START DATE</string>
+
+    <string name="how_it_works">How It Works</string>
+    <string name="faqs">Faqs</string>
+    <string name="my_profile">My Profile</string>
+    <string name="charges">Charges</string>
+    <string name="terms_conditions">Accept Terms and Conditions</string>
+    <string name="i_accept">I accept to pay</string>
+    <string name="first_payment">Your First Payment Starts after 7 days</string>
+
+    <string name="weekly_payment">Weekly Payment</string>
+
+    <string name="pay_bill">Please send payments to m:Pesa paybill 65745274</string>
+    <string name="instructions">Instructions</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="payment_stert_date">Payment Start date</string>
+    <string name="timeapplied">Date applied</string>
+    <string name="totalamountpaid">Total amount Paid</string>
+    <string name="totalamounttobepaid">Total Amount To be Paid</string>
+    <string name="paymentduration">Payment Duration</string>
+    <string name="applicationdtails">Application Details</string>
+    <string name="prompt_firstname">First Name</string>
+    <string name="prompt_lastname">Last Name</string>
+    <string name="prompt_secondname">Second Name</string>
+    <string name="prompt_phone">Phone Number</string>
+    <string name="prompt_idnumber">Id Number</string>
+    <string name="prompt_cpassword">Confirm Password</string>
+
+
+</resources>

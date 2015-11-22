@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">kccrtms</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="saveoutlet">Save Outlet</string>
+    <string name="phone">Enter Phone</string>
+    <string name="personname">Enter full name</string>
+    <string name="outletname">Enter Outlet name</string>
+    <string name="remarks">Enter Remarks</string>
+    <string name="price">Enter Price</string>
+    <string name="quantity">Enter Quantiry</string>
+    <string name="outletstatement">Select an Outlet</string>
+
+
+    <string-array name="channels" >
+        <item > Select outlet </item>
+        <item > Supermarket </item>
+        <item > Duka </item>
+    </string-array>
+    <string-array name="selecregion" >
+        <item > --- Select region --- </item>
+
+    </string-array>
+    <string-array name="teritory" >
+        <item > --- Select teritory --- </item>
+
+    </string-array>
+    <string-array name="area" >
+        <item > --- Select area --- </item>
+
+    </string-array>
+
+    <string-array name="outlet" >
+        <item > --- No outlets --- </item>
+
+    </string-array>
+    <string-array name="prod" >
+        <item > Select Product </item>
+        <item > UHT</item>
+        <item > TFU </item>
+
+    </string-array>
+</resources>

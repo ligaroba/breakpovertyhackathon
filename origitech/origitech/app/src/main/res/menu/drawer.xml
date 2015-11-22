@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="root.com.origitech.MainActivity" >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard"/>
+
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single"
+        android:divider="#2196F3"
+        android:dividerHeight="1dp">
+
+        <item
+            android:id="@+id/protected_brands"
+            android:icon="@drawable/ic_blaclisted"
+            android:title="@string/protected_brands"/>
+        <item
+            android:id="@+id/blacklisted"
+            android:icon="@drawable/ic_protectedbrands"
+            android:title="@string/blacklisted"/>
+        <item
+            android:id="@+id/investigation"
+            android:icon="@drawable/ic_investigation"
+            android:title="@string/investigation"/>
+
+        <item
+            android:id="@+id/usage"
+            android:icon="@drawable/ic_usage"
+            android:title="@string/usage"/>
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help"/>
+        <!--<item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings"/>-->
+    </group>
+
+</menu>

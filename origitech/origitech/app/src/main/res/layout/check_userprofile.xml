@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="root.com.origitech"
+android:weightSum="4"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="@string/phone_number"
+                android:textColor="@color/PrimaryColor"
+                android:padding="20dp"
+                     android:layout_marginTop="10dp"
+                android:inputType="phone"
+                android:paddingBottom="8dp"
+                android:paddingLeft="6dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:id="@+id/editphone" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/password"
+            android:textColor="@color/PrimaryColor"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:paddingBottom="8dp"
+            android:paddingLeft="6dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:id="@+id/editpassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/cpassword"
+            android:textColor="@color/PrimaryColor"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:paddingBottom="8dp"
+            android:paddingLeft="6dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:id="@+id/editcpassword" />
+
+
+        <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/get_started"
+                    android:background="@drawable/rounded_button"
+                    android:id="@+id/btncheckCreate"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="0.48" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout >

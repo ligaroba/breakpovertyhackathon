@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/PrimaryColor</item>
+        <item name="android:colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyMaterialTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/my_primary</item>
+
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/my_primary_dark</item>
+
+        <!--   theme UI controls like checkboxes and text fields e.g. FloatActionButton -->
+        <item name="colorAccent">@color/my_accent</item>
+
+        <!-- Title Text Color -->
+        <item name="android:textColorPrimary">@color/my_primary_text</item>
+
+        <!-- color of the menu overflow icon (three vertical dots) -->
+        <item name="android:textColorSecondary">@color/my_secondary_text</item>
+
+
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="FabMargin">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="TextContent">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+</resources>
